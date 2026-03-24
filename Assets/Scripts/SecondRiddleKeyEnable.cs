@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class SecondRiddleKeyEnable : MonoBehaviour
 {
     public GameObject key;
-    public XRGrabInteractable keyGrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable keyGrabInteractable;
 
     public AudioSource keyEnableSoundEffect;
 

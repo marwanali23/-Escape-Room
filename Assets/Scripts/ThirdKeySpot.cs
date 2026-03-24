@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class ThirdKeySpot : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class ThirdKeySpot : MonoBehaviour
     public GameObject leftDoor;
 
     public AudioSource keyPlacedSoundEffect;
-    public XRGrabInteractable keyGrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable keyGrabInteractable;
 
     //[SerializeField] private Animator leftDoorAnimator = null;
     //[SerializeField] private string leftDoorOpen = "LeftDoorOpen";

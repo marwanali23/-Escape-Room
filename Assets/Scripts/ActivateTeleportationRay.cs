@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class ActivateTeleportationRay : MonoBehaviour
 {
@@ -15,8 +15,8 @@ public class ActivateTeleportationRay : MonoBehaviour
     public InputActionProperty rightCancel;
     public InputActionProperty leftCancel;
 
-    public XRRayInteractor rightRay;
-    public XRRayInteractor leftRay;
+    public UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor rightRay;
+    public UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor leftRay;
 
     void Update()
     {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class ThirdRiddleKeyEnable : MonoBehaviour
 {
     public GameObject key;
-    public XRGrabInteractable keyGrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable keyGrabInteractable;
 
     public AudioSource keyEnableSoundEffect;
 

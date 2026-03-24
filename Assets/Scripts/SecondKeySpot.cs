@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class SecondKeySpot : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class SecondKeySpot : MonoBehaviour
     public TextMeshProUGUI thirdRiddle;
 
     public AudioSource keyPlacedSoundEffect;
-    public XRGrabInteractable keyGrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable keyGrabInteractable;
 
     private void Start()
     {

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class EnableKeysForTesting : MonoBehaviour
 {
@@ -9,9 +9,9 @@ public class EnableKeysForTesting : MonoBehaviour
     public GameObject key2;
     public GameObject key3;
 
-    public XRGrabInteractable key1GrabInteractable;
-    public XRGrabInteractable key2GrabInteractable;
-    public XRGrabInteractable key3GrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable key1GrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable key2GrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable key3GrabInteractable;
 
 
     // Start is called before the first frame update

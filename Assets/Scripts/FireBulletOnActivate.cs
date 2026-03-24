@@ -12,7 +12,7 @@ public class FireBulletOnActivate : MonoBehaviour
 
     void Start()
     {
-        XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
+        UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabbable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
         grabbable.activated.AddListener(FireBullet);
     }
 
@@ -21,7 +21,7 @@ public class FireBulletOnActivate : MonoBehaviour
         shotSoundEffect.Play();
         GameObject spawnBullet = Instantiate(bullet);
         spawnBullet.transform.position = spawnPoint.position;
-        spawnBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
+        spawnBullet.GetComponent<Rigidbody>().linearVelocity = spawnPoint.forward * fireSpeed;
         Destroy(spawnBullet, 5);
     }
 }

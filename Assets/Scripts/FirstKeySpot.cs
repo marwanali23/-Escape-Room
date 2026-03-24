@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class FirstKeySpot : MonoBehaviour
 {
@@ -13,16 +13,16 @@ public class FirstKeySpot : MonoBehaviour
     public GameObject thirdRiddleCanvas;
 
     public AudioSource keyPlacedSoundEffect;
-    public XRGrabInteractable keyGrabInteractable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable keyGrabInteractable;
 
-    public XRGrabInteractable whiteStoneHorse;
-    public XRGrabInteractable whiteStoneRook;
-    public XRGrabInteractable whiteStonePawn1;
-    public XRGrabInteractable whiteStonePawn2;
-    public XRGrabInteractable whiteStonePawn3;
-    public XRGrabInteractable whiteStoneBishop;
-    public XRGrabInteractable whiteStoneQueen;
-    public XRGrabInteractable whiteStoneKing;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStoneHorse;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStoneRook;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStonePawn1;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStonePawn2;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStonePawn3;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStoneBishop;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStoneQueen;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable whiteStoneKing;
 
     private void Start()
     {
